@@ -12,6 +12,9 @@ module.exports = {
             filename: 'index.html',
             template: './src/index.html'
         })
-    ]
+    ],
+    devServer: {
+    contentBase: path.resolve(__dirname, 'recetario_dist')
+  }
 }
 
